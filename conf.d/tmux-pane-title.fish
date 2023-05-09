@@ -1,4 +1,4 @@
-if is-interactive
+if status is-interactive
   function tmux_pane_title_reset -e fish_prompt
     tmux set-option -p @pane_title ""
   end
